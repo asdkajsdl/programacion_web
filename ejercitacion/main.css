@@ -1,0 +1,11 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.grilla {
+  display: grid;
+  grid-template-columns: 200px 200px 200px; /*este es para las columnas */
+  grid-template-rows: 200px 200px 200px; /*este es para las filas */
+}
