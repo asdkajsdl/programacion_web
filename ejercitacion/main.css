@@ -6,6 +6,20 @@
 
 .grilla {
   display: grid;
-  grid-template-columns: 200px 200px 200px; /*este es para las columnas */
-  grid-template-rows: 200px 200px 200px; /*este es para las filas */
+  /*grid-template-columns: 200px 200px 200px;*/ /*este es para las columnas */
+  /*grid-template-rows: 200px 200px 200px;*/ /*este es para las filas */
+
+  grid-template-columns: repeat(3, 350px);
+  grid-template-rows: repeat(2, 400px);
+  gap: 50px;
+}
+
+.foto {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.fondo {
+  background-color: black;
 }
