@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Benjamin Vasquez</h1>
+        <h1>Alexander Ayala</h1>
         <p>Título Profesional</p>
         <nav>
           <ul>
@@ -66,13 +66,13 @@ function App() {
         <div className="experience">
           <h3>Puesto en la Empresa 1</h3>
           <p>Descripción de las responsabilidades y logros.</p>
-          <p>Fechas: Enero 2020 - Presente</p>
+          <p>Fechas: septiembre 2019 - Presente</p>
         </div>
       </section>
       <section id="contact">
         <h2>Contacto</h2>
-        <p>Email: benjaminvasquez289@gmail.com</p>
-        <p>Teléfono: 11 2360 4808</p>
+        <p>Email: alexanderayalamejia@gmail.com</p>
+        <p>Teléfono: 1121704888</p>
         <p>
           <a
             href="https://linkedin.com/in/tu-perfil"
