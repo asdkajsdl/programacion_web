@@ -1,0 +1,109 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+/*-------------------------------------------------*/
+
+/* Estilo para el contenedor principal de la aplicación */
+.App {
+  text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+/* Estilo para el encabezado de la aplicación */
+.App-header {
+  background-color: #282c34; /* Color de fondo del encabezado */
+  min-height: 100vh; /* Altura mínima del encabezado igual a la altura total de la ventana del navegador */
+  display: flex; /* Utiliza el diseño Flexbox para los elementos hijos */
+  flex-direction: column; /* Alinea los elementos hijos en una columna */
+  align-items: center; /* Centra los elementos hijos horizontalmente */
+  justify-content: center; /* Centra los elementos hijos verticalmente */
+  color: white; /* Color del texto dentro del encabezado */
+}
+
+/* Estilo para los enlaces dentro del encabezado */
+.App-header a {
+  color: #61dafb; /* Color del texto de los enlaces */
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+/* Estilo general para las secciones */
+section {
+  padding: 20px; /* Espacio interno alrededor del contenido de la sección */
+  margin: 20px; /* Espacio exterior alrededor de la sección */
+}
+
+/* Estilo para el pie de página */
+footer {
+  padding: 10px; /* Espacio interno alrededor del contenido del pie de página */
+  background-color: #282c34; /* Color de fondo del pie de página */
+  color: white; /* Color del texto en el pie de página */
+}
+
+/* Estilo para los contenedores de proyectos, experiencia y educación */
+.project,
+.experience,
+.education {
+  margin-bottom: 20px; /* Espacio inferior después de cada contenedor */
+}
